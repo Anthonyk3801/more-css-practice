@@ -1,1 +1,67 @@
-/* Add your CSS here */
+html {
+  width: 600px;
+}
+h1 {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.button {
+  border: none;
+  color: blue;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.picture-head {
+display: flex;
+flex-direction: row;
+height: 200px;
+width: 1050px;
+align-self: center;
+}
+.one {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-right: 20px;
+margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+.two {
+display: flex;
+flex-direction: column;
+padding-right: 20px;
+}
+.text {
+  padding-left: 20px;
+}
+.work {
+  padding-left: 11px;
+}
